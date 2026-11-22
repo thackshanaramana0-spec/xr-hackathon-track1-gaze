@@ -12,7 +12,7 @@ centres and camera matrix.
 
 ## Demo video
 
-[![Demo film, first frame: a render from this submission](extras/demo/poster.png)](extras/demo/SRMIST_Rocklef_demo.mp4)
+[![Contact sheet: the ten clockwise frames and the five-direction check](extras/quality_audit/gate0/contact_sheet.png)](extras/demo/SRMIST_Rocklef_demo.mp4)
 
 | Video | Length | File |
 |---|---|---|

@@ -1,0 +1,1142 @@
+{
+  "center": {
+    "frame": null,
+    "theta": null,
+    "input": {
+      "h": 0.0,
+      "v": 0.0
+    },
+    "eye_rotation_L": [
+      0.0246,
+      0.0011,
+      -5.1075
+    ],
+    "eye_rotation_R": [
+      -0.0246,
+      0.0011,
+      5.1044
+    ],
+    "pupil_center_2D_L": [
+      667.042,
+      511.615
+    ],
+    "pupil_center_2D_R": [
+      356.959,
+      513.126
+    ],
+    "camera_matrix": [
+      [
+        1991.1111,
+        0.0,
+        512.0
+      ],
+      [
+        0.0,
+        1991.1111,
+        512.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "camera_extrinsics_RT": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -8.8e-05
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        0.304943
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.498276
+      ]
+    ],
+    "camera_projection_P": [
+      [
+        1991.1111,
+        512.0,
+        0.0001,
+        254.9424
+      ],
+      [
+        0.0,
+        512.0003,
+        -1991.111,
+        862.2919
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.4983
+      ]
+    ],
+    "eye_yaw_pitch_deg_L": [
+      -5.1075,
+      -0.0246
+    ],
+    "eye_yaw_pitch_deg_R": [
+      5.1044,
+      0.0246
+    ],
+    "gaze_vector_L": [
+      -0.089025,
+      -0.996029,
+      -0.000429
+    ],
+    "gaze_vector_R": [
+      0.088971,
+      -0.996034,
+      0.000429
+    ],
+    "eyeball_center_3D_L": [
+      0.031361,
+      -0.098382,
+      0.305093
+    ],
+    "eyeball_center_3D_R": [
+      -0.031185,
+      -0.09817,
+      0.304792
+    ],
+    "pupil_center_3D_L": [
+      0.030233,
+      -0.111143,
+      0.305017
+    ],
+    "pupil_center_3D_R": [
+      -0.030073,
+      -0.110933,
+      0.304724
+    ],
+    "fixation_target_3D": [
+      8.8e-05,
+      -0.448276,
+      0.304943
+    ],
+    "fixation_distance_m": 0.35,
+    "camera_distance_m": 0.4,
+    "vergence_deg": 10.2121,
+    "units": {
+      "eye_rotation": "deg, XYZ Euler, world frame: rotation from straight ahead (-Y) to the line of sight",
+      "yaw_pitch": "deg; yaw + = image right, pitch + = up",
+      "pupil_2D": "px in the 1024x1024 render, origin top-left, x right, y down",
+      "3D": "m, Blender world: Z up, the face looks along -Y, +X = image right",
+      "camera": "OpenCV: [u, v, 1] ~ K [R|t] X_world",
+      "input": "h + = image right (the subject's left), v + = up; clamped to [-1, +1]"
+    },
+    "image": "center.png",
+    "eyes_closeup": {
+      "image": "eyes_center.png",
+      "resolution": [
+        1536,
+        640
+      ],
+      "camera_matrix": [
+        [
+          7680.0,
+          0.0,
+          768.0
+        ],
+        [
+          0.0,
+          7680.0,
+          320.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_extrinsics_RT": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -8.8e-05
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.304943
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.498276
+        ]
+      ],
+      "pupil_center_2D_L": [
+        1366.023,
+        318.523
+      ],
+      "pupil_center_2D_R": [
+        169.989,
+        324.333
+      ]
+    }
+  },
+  "left": {
+    "frame": null,
+    "theta": null,
+    "input": {
+      "h": -1.0,
+      "v": 0.0
+    },
+    "eye_rotation_L": [
+      0.024,
+      0.0028,
+      -13.0768
+    ],
+    "eye_rotation_R": [
+      -0.0246,
+      -0.0007,
+      -3.0618
+    ],
+    "pupil_center_2D_L": [
+      657.893,
+      511.615
+    ],
+    "pupil_center_2D_R": [
+      347.57,
+      513.126
+    ],
+    "camera_matrix": [
+      [
+        1991.1111,
+        0.0,
+        512.0
+      ],
+      [
+        0.0,
+        1991.1111,
+        512.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "camera_extrinsics_RT": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -8.8e-05
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        0.304943
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.498276
+      ]
+    ],
+    "camera_projection_P": [
+      [
+        1991.1111,
+        512.0,
+        0.0001,
+        254.9424
+      ],
+      [
+        0.0,
+        512.0003,
+        -1991.111,
+        862.2919
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.4983
+      ]
+    ],
+    "eye_yaw_pitch_deg_L": [
+      -13.0768,
+      -0.024
+    ],
+    "eye_yaw_pitch_deg_R": [
+      -3.0617,
+      0.0246
+    ],
+    "gaze_vector_L": [
+      -0.226257,
+      -0.974068,
+      -0.000419
+    ],
+    "gaze_vector_R": [
+      -0.053412,
+      -0.998572,
+      0.00043
+    ],
+    "eyeball_center_3D_L": [
+      0.031361,
+      -0.098382,
+      0.305093
+    ],
+    "eyeball_center_3D_R": [
+      -0.031185,
+      -0.09817,
+      0.304792
+    ],
+    "pupil_center_3D_L": [
+      0.028475,
+      -0.110863,
+      0.305017
+    ],
+    "pupil_center_3D_R": [
+      -0.031897,
+      -0.110961,
+      0.304724
+    ],
+    "fixation_target_3D": [
+      -0.049912,
+      -0.448276,
+      0.304943
+    ],
+    "fixation_distance_m": 0.35,
+    "camera_distance_m": 0.4,
+    "vergence_deg": 10.0152,
+    "units": {
+      "eye_rotation": "deg, XYZ Euler, world frame: rotation from straight ahead (-Y) to the line of sight",
+      "yaw_pitch": "deg; yaw + = image right, pitch + = up",
+      "pupil_2D": "px in the 1024x1024 render, origin top-left, x right, y down",
+      "3D": "m, Blender world: Z up, the face looks along -Y, +X = image right",
+      "camera": "OpenCV: [u, v, 1] ~ K [R|t] X_world",
+      "input": "h + = image right (the subject's left), v + = up; clamped to [-1, +1]"
+    },
+    "image": "left.png",
+    "eyes_closeup": {
+      "image": "eyes_left.png",
+      "resolution": [
+        1536,
+        640
+      ],
+      "camera_matrix": [
+        [
+          7680.0,
+          0.0,
+          768.0
+        ],
+        [
+          0.0,
+          7680.0,
+          320.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_extrinsics_RT": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -8.8e-05
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.304943
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.498276
+        ]
+      ],
+      "pupil_center_2D_L": [
+        1330.741,
+        318.524
+      ],
+      "pupil_center_2D_R": [
+        133.778,
+        324.334
+      ]
+    }
+  },
+  "right": {
+    "frame": null,
+    "theta": null,
+    "input": {
+      "h": 1.0,
+      "v": 0.0
+    },
+    "eye_rotation_L": [
+      0.0246,
+      -0.0007,
+      3.0636
+    ],
+    "eye_rotation_R": [
+      -0.024,
+      0.0028,
+      13.0691
+    ],
+    "pupil_center_2D_L": [
+      676.442,
+      511.615
+    ],
+    "pupil_center_2D_R": [
+      366.099,
+      513.126
+    ],
+    "camera_matrix": [
+      [
+        1991.1111,
+        0.0,
+        512.0
+      ],
+      [
+        0.0,
+        1991.1111,
+        512.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "camera_extrinsics_RT": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -8.8e-05
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        0.304943
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.498276
+      ]
+    ],
+    "camera_projection_P": [
+      [
+        1991.1111,
+        512.0,
+        0.0001,
+        254.9424
+      ],
+      [
+        0.0,
+        512.0003,
+        -1991.111,
+        862.2919
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.4983
+      ]
+    ],
+    "eye_yaw_pitch_deg_L": [
+      3.0636,
+      -0.0246
+    ],
+    "eye_yaw_pitch_deg_R": [
+      13.0691,
+      0.024
+    ],
+    "gaze_vector_L": [
+      0.053444,
+      -0.998571,
+      -0.00043
+    ],
+    "gaze_vector_R": [
+      0.226126,
+      -0.974098,
+      0.000419
+    ],
+    "eyeball_center_3D_L": [
+      0.031361,
+      -0.098382,
+      0.305093
+    ],
+    "eyeball_center_3D_R": [
+      -0.031185,
+      -0.09817,
+      0.304792
+    ],
+    "pupil_center_3D_L": [
+      0.032058,
+      -0.111174,
+      0.305017
+    ],
+    "pupil_center_3D_R": [
+      -0.028315,
+      -0.110656,
+      0.304723
+    ],
+    "fixation_target_3D": [
+      0.050088,
+      -0.448276,
+      0.304943
+    ],
+    "fixation_distance_m": 0.35,
+    "camera_distance_m": 0.4,
+    "vergence_deg": 10.0057,
+    "units": {
+      "eye_rotation": "deg, XYZ Euler, world frame: rotation from straight ahead (-Y) to the line of sight",
+      "yaw_pitch": "deg; yaw + = image right, pitch + = up",
+      "pupil_2D": "px in the 1024x1024 render, origin top-left, x right, y down",
+      "3D": "m, Blender world: Z up, the face looks along -Y, +X = image right",
+      "camera": "OpenCV: [u, v, 1] ~ K [R|t] X_world",
+      "input": "h + = image right (the subject's left), v + = up; clamped to [-1, +1]"
+    },
+    "image": "right.png",
+    "eyes_closeup": {
+      "image": "eyes_right.png",
+      "resolution": [
+        1536,
+        640
+      ],
+      "camera_matrix": [
+        [
+          7680.0,
+          0.0,
+          768.0
+        ],
+        [
+          0.0,
+          7680.0,
+          320.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_extrinsics_RT": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -8.8e-05
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.304943
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.498276
+        ]
+      ],
+      "pupil_center_2D_L": [
+        1402.279,
+        318.523
+      ],
+      "pupil_center_2D_R": [
+        205.248,
+        324.35
+      ]
+    }
+  },
+  "up": {
+    "frame": null,
+    "theta": null,
+    "input": {
+      "h": 0.0,
+      "v": 1.0
+    },
+    "eye_rotation_L": [
+      -8.0767,
+      -0.3572,
+      -5.0568
+    ],
+    "eye_rotation_R": [
+      -8.1201,
+      0.3589,
+      5.0532
+    ],
+    "pupil_center_2D_L": [
+      667.051,
+      502.329
+    ],
+    "pupil_center_2D_R": [
+      356.95,
+      503.85
+    ],
+    "camera_matrix": [
+      [
+        1991.1111,
+        0.0,
+        512.0
+      ],
+      [
+        0.0,
+        1991.1111,
+        512.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "camera_extrinsics_RT": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -8.8e-05
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        0.304943
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.498276
+      ]
+    ],
+    "camera_projection_P": [
+      [
+        1991.1111,
+        512.0,
+        0.0001,
+        254.9424
+      ],
+      [
+        0.0,
+        512.0003,
+        -1991.111,
+        862.2919
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.4983
+      ]
+    ],
+    "eye_yaw_pitch_deg_L": [
+      -5.1075,
+      8.0766
+    ],
+    "eye_yaw_pitch_deg_R": [
+      5.1044,
+      8.1199
+    ],
+    "gaze_vector_L": [
+      -0.088141,
+      -0.98615,
+      0.140497
+    ],
+    "gaze_vector_R": [
+      0.088079,
+      -0.986049,
+      0.141245
+    ],
+    "eyeball_center_3D_L": [
+      0.031361,
+      -0.098382,
+      0.305093
+    ],
+    "eyeball_center_3D_R": [
+      -0.031185,
+      -0.09817,
+      0.304792
+    ],
+    "pupil_center_3D_L": [
+      0.030244,
+      -0.111026,
+      0.306823
+    ],
+    "pupil_center_3D_R": [
+      -0.030084,
+      -0.110815,
+      0.306528
+    ],
+    "fixation_target_3D": [
+      8.8e-05,
+      -0.448276,
+      0.354943
+    ],
+    "fixation_distance_m": 0.35,
+    "camera_distance_m": 0.4,
+    "vergence_deg": 10.1099,
+    "units": {
+      "eye_rotation": "deg, XYZ Euler, world frame: rotation from straight ahead (-Y) to the line of sight",
+      "yaw_pitch": "deg; yaw + = image right, pitch + = up",
+      "pupil_2D": "px in the 1024x1024 render, origin top-left, x right, y down",
+      "3D": "m, Blender world: Z up, the face looks along -Y, +X = image right",
+      "camera": "OpenCV: [u, v, 1] ~ K [R|t] X_world",
+      "input": "h + = image right (the subject's left), v + = up; clamped to [-1, +1]"
+    },
+    "image": "up.png",
+    "eyes_closeup": {
+      "image": "eyes_up.png",
+      "resolution": [
+        1536,
+        640
+      ],
+      "camera_matrix": [
+        [
+          7680.0,
+          0.0,
+          768.0
+        ],
+        [
+          0.0,
+          7680.0,
+          320.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_extrinsics_RT": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -8.8e-05
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.304943
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.498276
+        ]
+      ],
+      "pupil_center_2D_L": [
+        1366.061,
+        282.707
+      ],
+      "pupil_center_2D_R": [
+        169.953,
+        288.574
+      ]
+    }
+  },
+  "down": {
+    "frame": null,
+    "theta": null,
+    "input": {
+      "h": 0.0,
+      "v": -1.0
+    },
+    "eye_rotation_L": [
+      8.1249,
+      0.3593,
+      -5.0562
+    ],
+    "eye_rotation_R": [
+      8.0719,
+      -0.3568,
+      5.0538
+    ],
+    "pupil_center_2D_L": [
+      667.048,
+      520.892
+    ],
+    "pupil_center_2D_R": [
+      356.954,
+      522.395
+    ],
+    "camera_matrix": [
+      [
+        1991.1111,
+        0.0,
+        512.0
+      ],
+      [
+        0.0,
+        1991.1111,
+        512.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "camera_extrinsics_RT": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -8.8e-05
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        0.304943
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.498276
+      ]
+    ],
+    "camera_projection_P": [
+      [
+        1991.1111,
+        512.0,
+        0.0001,
+        254.9424
+      ],
+      [
+        0.0,
+        512.0003,
+        -1991.111,
+        862.2919
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.4983
+      ]
+    ],
+    "eye_yaw_pitch_deg_L": [
+      -5.1075,
+      -8.1247
+    ],
+    "eye_yaw_pitch_deg_R": [
+      5.1044,
+      -8.0718
+    ],
+    "gaze_vector_L": [
+      -0.088131,
+      -0.986032,
+      -0.141329
+    ],
+    "gaze_vector_R": [
+      0.08809,
+      -0.986166,
+      -0.140414
+    ],
+    "eyeball_center_3D_L": [
+      0.031361,
+      -0.098382,
+      0.305093
+    ],
+    "eyeball_center_3D_R": [
+      -0.031185,
+      -0.09817,
+      0.304792
+    ],
+    "pupil_center_3D_L": [
+      0.030245,
+      -0.111005,
+      0.303213
+    ],
+    "pupil_center_3D_R": [
+      -0.030085,
+      -0.110796,
+      0.30292
+    ],
+    "fixation_target_3D": [
+      8.8e-05,
+      -0.448276,
+      0.254943
+    ],
+    "fixation_distance_m": 0.35,
+    "camera_distance_m": 0.4,
+    "vergence_deg": 10.11,
+    "units": {
+      "eye_rotation": "deg, XYZ Euler, world frame: rotation from straight ahead (-Y) to the line of sight",
+      "yaw_pitch": "deg; yaw + = image right, pitch + = up",
+      "pupil_2D": "px in the 1024x1024 render, origin top-left, x right, y down",
+      "3D": "m, Blender world: Z up, the face looks along -Y, +X = image right",
+      "camera": "OpenCV: [u, v, 1] ~ K [R|t] X_world",
+      "input": "h + = image right (the subject's left), v + = up; clamped to [-1, +1]"
+    },
+    "image": "down.png",
+    "eyes_closeup": {
+      "image": "eyes_down.png",
+      "resolution": [
+        1536,
+        640
+      ],
+      "camera_matrix": [
+        [
+          7680.0,
+          0.0,
+          768.0
+        ],
+        [
+          0.0,
+          7680.0,
+          320.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_extrinsics_RT": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -8.8e-05
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.304943
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.498276
+        ]
+      ],
+      "pupil_center_2D_L": [
+        1366.048,
+        354.299
+      ],
+      "pupil_center_2D_R": [
+        169.962,
+        360.088
+      ]
+    }
+  },
+  "reset": {
+    "frame": null,
+    "theta": null,
+    "input": {
+      "h": 0.0,
+      "v": 0.0
+    },
+    "eye_rotation_L": [
+      0.0246,
+      0.0011,
+      -5.1075
+    ],
+    "eye_rotation_R": [
+      -0.0246,
+      0.0011,
+      5.1044
+    ],
+    "pupil_center_2D_L": [
+      667.042,
+      511.615
+    ],
+    "pupil_center_2D_R": [
+      356.959,
+      513.126
+    ],
+    "camera_matrix": [
+      [
+        1991.1111,
+        0.0,
+        512.0
+      ],
+      [
+        0.0,
+        1991.1111,
+        512.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "camera_extrinsics_RT": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -8.8e-05
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        0.304943
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.498276
+      ]
+    ],
+    "camera_projection_P": [
+      [
+        1991.1111,
+        512.0,
+        0.0001,
+        254.9424
+      ],
+      [
+        0.0,
+        512.0003,
+        -1991.111,
+        862.2919
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.4983
+      ]
+    ],
+    "eye_yaw_pitch_deg_L": [
+      -5.1075,
+      -0.0246
+    ],
+    "eye_yaw_pitch_deg_R": [
+      5.1044,
+      0.0246
+    ],
+    "gaze_vector_L": [
+      -0.089025,
+      -0.996029,
+      -0.000429
+    ],
+    "gaze_vector_R": [
+      0.088971,
+      -0.996034,
+      0.000429
+    ],
+    "eyeball_center_3D_L": [
+      0.031361,
+      -0.098382,
+      0.305093
+    ],
+    "eyeball_center_3D_R": [
+      -0.031185,
+      -0.09817,
+      0.304792
+    ],
+    "pupil_center_3D_L": [
+      0.030233,
+      -0.111143,
+      0.305017
+    ],
+    "pupil_center_3D_R": [
+      -0.030073,
+      -0.110933,
+      0.304724
+    ],
+    "fixation_target_3D": [
+      8.8e-05,
+      -0.448276,
+      0.304943
+    ],
+    "fixation_distance_m": 0.35,
+    "camera_distance_m": 0.4,
+    "vergence_deg": 10.2121,
+    "units": {
+      "eye_rotation": "deg, XYZ Euler, world frame: rotation from straight ahead (-Y) to the line of sight",
+      "yaw_pitch": "deg; yaw + = image right, pitch + = up",
+      "pupil_2D": "px in the 1024x1024 render, origin top-left, x right, y down",
+      "3D": "m, Blender world: Z up, the face looks along -Y, +X = image right",
+      "camera": "OpenCV: [u, v, 1] ~ K [R|t] X_world",
+      "input": "h + = image right (the subject's left), v + = up; clamped to [-1, +1]"
+    },
+    "image": "reset.png",
+    "eyes_closeup": {
+      "image": "eyes_reset.png",
+      "resolution": [
+        1536,
+        640
+      ],
+      "camera_matrix": [
+        [
+          7680.0,
+          0.0,
+          768.0
+        ],
+        [
+          0.0,
+          7680.0,
+          320.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_extrinsics_RT": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -8.8e-05
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.304943
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.498276
+        ]
+      ],
+      "pupil_center_2D_L": [
+        1366.023,
+        318.523
+      ],
+      "pupil_center_2D_R": [
+        169.989,
+        324.333
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+# Re-runs the independent Track 1 checks (extras/tools/check_bundle.py) on the committed submission files at every push:
+# metadata schema, clockwise sequence, 1024x1024 PNGs, 35/40 cm calibration, convergence, pupil centres
+# detected in the images vs metadata, constant lighting, and the five-direction test.
+name: Track 1 checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r extras/requirements.txt
+      - run: python extras/tools/check_bundle.py . out/gate0
+      - run: cat out/gate0/report.md >> "$GITHUB_STEP_SUMMARY"

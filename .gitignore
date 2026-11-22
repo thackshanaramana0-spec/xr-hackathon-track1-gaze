@@ -1,0 +1,28 @@
+_downloads/
+__pycache__/
+*.blend1
+
+# GNM pipeline: keep videos/stills, not raw frames
+extras/renders_eyes_cli/*/frames/
+
+# legacy MakeHuman pipeline: local working data
+extras/legacy/_test/
+extras/legacy/_calib/
+extras/legacy/_probe.blend
+extras/legacy/dist/
+extras/legacy/video/build/
+extras/legacy/video/out/
+extras/legacy/video/cartoon/node_modules/
+extras/legacy/video/cartoon/tex/
+extras/legacy/video/cartoon/out/
+
+# submission zips
+dist/
+
+# demo video build products (frames, voice, stills)
+extras/demo/build/
+_build/
+renders_eyes/
+
+# earlier exploration: not part of the submission (kept on disk)
+extras/legacy/

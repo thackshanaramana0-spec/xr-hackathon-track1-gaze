@@ -1,0 +1,183 @@
+{
+  "vergence": {
+    "min": 10.0152,
+    "max": 10.11,
+    "expected_centre": 10.211977182443745
+  },
+  "detect_1024_px": [
+    1.9182438216838746,
+    1.8169823173257178,
+    1.7266574934521484,
+    1.2761894614340907,
+    0.8783047245221414,
+    0.7899762385051727,
+    0.43218078280237987,
+    0.2979197231395886,
+    0.39946169951881216,
+    0.458124473598156,
+    0.6519709764707275,
+    0.6557672968494022,
+    0.7662911532218956,
+    0.7837294713768704,
+    0.7765067516314088,
+    1.0324454293228003,
+    0.7299883129991589,
+    1.2421191886335659,
+    1.2445531082606045,
+    1.3225757120985937
+  ],
+  "direction_shifts_px": {
+    "left": {
+      "L": [
+        -9.21,
+        1.2
+      ],
+      "R": [
+        -9.85,
+        0.0
+      ]
+    },
+    "right": {
+      "L": [
+        9.84,
+        0.29
+      ],
+      "R": [
+        9.6,
+        0.4
+      ]
+    },
+    "up": {
+      "L": [
+        -0.02,
+        -10.27
+      ],
+      "R": [
+        0.0,
+        -10.27
+      ]
+    },
+    "down": {
+      "L": [
+        0.08,
+        10.0
+      ],
+      "R": [
+        0.04,
+        9.68
+      ]
+    }
+  },
+  "rows": [
+    [
+      "Bundle layout",
+      "PASS",
+      "all present"
+    ],
+    [
+      "metadata.json: 10 records",
+      "PASS",
+      "10 records"
+    ],
+    [
+      "metadata.json: required fields",
+      "PASS",
+      "frame, theta, input, eye_rotation_L/R, pupil_center_2D_L/R, camera_matrix"
+    ],
+    [
+      "Clockwise sequence theta_k = 2*pi*k/10, h = sin, v = cos, k = 0 at the top",
+      "PASS",
+      "max deviation 4.84e-07"
+    ],
+    [
+      "Order is clockwise (top, then right, bottom, left)",
+      "PASS",
+      "atan2(h, v) increases every frame"
+    ],
+    [
+      "Renders are 1024 x 1024 PNG",
+      "PASS",
+      "10 files"
+    ],
+    [
+      "Fixation target 35 cm forward of the eye midpoint (+-5 cm)",
+      "PASS",
+      "forward distance 0.3500-0.3500 m"
+    ],
+    [
+      "Target stays inside the +-5 cm motion bound",
+      "PASS",
+      "max lateral offset 5.00 cm"
+    ],
+    [
+      "Camera locked 40 cm forward",
+      "PASS",
+      "0.4000-0.4000 m"
+    ],
+    [
+      "Camera identical in all 10 frames",
+      "PASS",
+      "f = 1991.1 px, c = (512.0, 512.0)"
+    ],
+    [
+      "Camera faces the face (optical axis through the eye midpoint)",
+      "PASS",
+      "0.000 deg off axis"
+    ],
+    [
+      "Both eyes converge on the fixation target",
+      "PASS",
+      "max line-of-sight error 0.0001 deg"
+    ],
+    [
+      "pupil_center_2D = K[R|t] * pupil_center_3D (to JSON rounding)",
+      "PASS",
+      "max reprojection error 0.0533 px"
+    ],
+    [
+      "Metadata pupils match pupils detected in the 1024 renders (<= 3.0 px)",
+      "PASS",
+      "mean 0.96 px, max 1.92 px over 20 pupils"
+    ],
+    [
+      "Same check on the eye close-ups (error scaled to 1024-frame px)",
+      "NOT VERIFIED",
+      "NOT VERIFIED: 10 of 10 close-up renders missing from .\\renders_eyes"
+    ],
+    [
+      "Constant lighting: backdrop identical across frames",
+      "PASS",
+      "max mean difference 0.071 / 255"
+    ],
+    [
+      "Direction left: both pupils move left (detected, >= 5 px)",
+      "PASS",
+      "L (-9.2, +1.2) px, R (-9.8, +0.0) px"
+    ],
+    [
+      "Direction right: both pupils move right (detected, >= 5 px)",
+      "PASS",
+      "L (+9.8, +0.3) px, R (+9.6, +0.4) px"
+    ],
+    [
+      "Direction up: both pupils move up (detected, >= 5 px)",
+      "PASS",
+      "L (-0.0, -10.3) px, R (+0.0, -10.3) px"
+    ],
+    [
+      "Direction down: both pupils move down (detected, >= 5 px)",
+      "PASS",
+      "L (+0.1, +10.0) px, R (+0.0, +9.7) px"
+    ],
+    [
+      "Reset returns exactly to centre",
+      "PASS",
+      "metadata offset 0.0000 px, image difference 0.016 / 255"
+    ],
+    [
+      "Five-direction test",
+      "PASS",
+      "5 of 5"
+    ]
+  ]
+}

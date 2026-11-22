@@ -1,0 +1,5 @@
+# Rendering needs only Blender 5.2 LTS (see bundle/README.md). These packages are for the checker and the
+# texture/identity build scripts that run outside Blender (tools/check_bundle.py, gnm_rig/*.py).
+numpy>=1.26
+pillow>=10.0
+scipy>=1.11

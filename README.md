@@ -62,7 +62,7 @@ The required submission files are at the top level, and everything else is under
 | [`extras/requirements.txt`](extras/requirements.txt) | Python packages for the checker and the figure scripts. |
 | [`extras/eyes.py`](extras/eyes.py), [`extras/eyes_cli.py`](extras/eyes_cli.py), [`extras/render_textures.py`](extras/render_textures.py) | Entry points for the full rig: the control wrapper, the eye-motion CLI and the texture renders. |
 | [`extras/gnm_expression_timeline.blend`](extras/gnm_expression_timeline.blend) | The Timeline expression. Open it in Blender and press Play. |
-| [`extras/legacy/`](extras/legacy/) | Earlier MakeHuman exploration. Not part of the submission. |
+| `extras/legacy/` | Earlier MakeHuman exploration. Kept on the team's disk, not in this repository. |
 
 ## Running the project
 

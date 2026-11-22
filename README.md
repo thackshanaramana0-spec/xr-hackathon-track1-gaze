@@ -5,21 +5,22 @@ Team Rocklef: Sree Rohith Balaji and Thackshanaramana, SRM Institute of Science 
 **Event:** Samsung PRISM Hackathon 2026 | XR Perception Group | 3D Assets Track.
 *This is the event name the team uses. It has not yet been confirmed against an official organiser source.*
 
-A photorealistic head built in Blender from Google's GNM v3 model. Both eyeballs rotate in 3D about their own centres,
+Photoreal synthetic eyes built brick by brick in Blender by Team Rocklef: a textured head whose eyeballs rotate in 3D about their own centres,
 converge on a fixation target 35 cm in front of the face, and are rendered by a camera locked 40 cm in front. A Python
 wrapper sets the gaze and renders the frames. Each frame has a metadata record with its inputs, eye rotations, 2D pupil
 centres and camera matrix.
 
 ## Demo video
 
-[![Contact sheet: the ten clockwise frames and the five-direction check](extras/quality_audit/gate0/contact_sheet.png)](extras/demo/SRMIST_Rocklef_demo.mp4)
+| Project demo (2:56) | Wrapper in action (1:04) |
+|---|---|
+| [![Project demo preview](extras/docs/media/demo_teaser.gif)](https://cdn.jsdelivr.net/gh/rocklef/xr-hackathon-track1-gaze@main/demo/web/Project_Demo_720p.mp4) | [![Wrapper demo preview](extras/docs/media/wrapper_teaser.gif)](https://cdn.jsdelivr.net/gh/thackshanaramana0-spec/xr-hackathon-track1-gaze@main/extras/demo/SRMIST_Rocklef_wrapper_demo.mp4) |
+| [**▶ Play the project demo in your browser**](https://cdn.jsdelivr.net/gh/rocklef/xr-hackathon-track1-gaze@main/demo/web/Project_Demo_720p.mp4)<br>The problem, applications, textures, eye motion, Timeline expression, architecture and results.<br>Full 1080p: [`extras/demo/SRMIST_Rocklef_demo.mp4`](https://github.com/thackshanaramana0-spec/xr-hackathon-track1-gaze/raw/main/extras/demo/SRMIST_Rocklef_demo.mp4) (download), subtitles [`.srt`](extras/demo/SRMIST_Rocklef_demo.srt) | [**▶ Play the wrapper demo in your browser**](https://cdn.jsdelivr.net/gh/thackshanaramana0-spec/xr-hackathon-track1-gaze@main/extras/demo/SRMIST_Rocklef_wrapper_demo.mp4)<br>`eyes.move` / `eyes.reset` / `eyes.render`, the 10 clockwise frames with their metadata, the five-direction check.<br>File: [`extras/demo/SRMIST_Rocklef_wrapper_demo.mp4`](https://github.com/thackshanaramana0-spec/xr-hackathon-track1-gaze/raw/main/extras/demo/SRMIST_Rocklef_wrapper_demo.mp4) (download) |
 
-| Video | Length | File |
-|---|---|---|
-| Demo film: problem, approach, textures, eye motion, Timeline expression, architecture, applications | 2:56 | [`extras/demo/SRMIST_Rocklef_demo.mp4`](extras/demo/SRMIST_Rocklef_demo.mp4), subtitles [`.srt`](extras/demo/SRMIST_Rocklef_demo.srt) |
-| Wrapper in action: `eyes.move`, `eyes.reset`, `eyes.render`, the ten frames, the five-direction check | 1:04 | [`extras/demo/SRMIST_Rocklef_wrapper_demo.mp4`](extras/demo/SRMIST_Rocklef_wrapper_demo.mp4) |
+Click a preview to play the video in your browser. Every scene of the demo film is also available on its own in
+[`extras/demo/clips/`](extras/demo/clips/). Slides: [`extras/presentation/SRMIST_Rocklef.pdf`](extras/presentation/SRMIST_Rocklef.pdf) (opens in the browser).
 
-Every scene of the demo film is also available on its own in [`extras/demo/clips/`](extras/demo/clips/).
+![Ten clockwise renders and the five-direction check](extras/quality_audit/gate0/contact_sheet.png)
 
 **Note:** the demo film was rendered before the final narration wording. The current wording is in
 [`extras/demo/narration.py`](extras/demo/narration.py). The wrapper video's final card reads "22 of 22 checks pass",

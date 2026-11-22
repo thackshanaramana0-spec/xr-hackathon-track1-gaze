@@ -15,5 +15,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r extras/requirements.txt
-      - run: python extras/tools/check_bundle.py . out/gate0
+      # exit 0 = all pass; exit 2 = nothing failed but some checks could not run (eye close-up renders are not in the repo);
+      # exit 1 = a check failed. Only exit 1 fails this job; NOT VERIFIED stays visible in the report.
+      - run: python extras/tools/check_bundle.py . out/gate0 || [ $? -eq 2 ]
       - run: cat out/gate0/report.md >> "$GITHUB_STEP_SUMMARY"
